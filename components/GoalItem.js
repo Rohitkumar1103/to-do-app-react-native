@@ -23,36 +23,3 @@ const styles = StyleSheet.create({
     color: "white",
   },
 });
-const styles = StyleSheet.create({
-  goalItems: {
-    margin: 8,
-    padding: 8,
-    borderRadius: 6,
-    backgroundColor: "green",
-  },
-  goalText: {
-    color: "white",
-  },
-});
-const styles = StyleSheet.create({
-  goalItems: {
-    margin: 8,
-    padding: 8,
-    borderRadius: 6,
-    backgroundColor: "green",
-  },
-  goalText: {
-    color: "white",
-  },
-});
-const styles = StyleSheet.create({
-  goalItems: {
-    margin: 8,
-    padding: 8,
-    borderRadius: 6,
-    backgroundColor: "green",
-  },
-  goalText: {
-    color: "white",
-  },
-});
