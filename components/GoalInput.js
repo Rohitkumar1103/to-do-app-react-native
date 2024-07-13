@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import {
   View,
   Text,
@@ -7,7 +8,6 @@ import {
   Modal,
   Image,
 } from "react-native";
-import { useState } from "react";
 
 function GoalInput(props) {
   const [enteredGoalText, setEnteredGoalText] = useState("");
@@ -17,6 +17,10 @@ function GoalInput(props) {
   }
 
   function addGoalHandler() {
+    if (enteredGoalText.trim().length === 0) {
+      // Check if the entered text is empty or only whitespace
+      return; // Don't add goal if it's empty
+    }
     props.onAddGoal(enteredGoalText);
     setEnteredGoalText("");
   }
